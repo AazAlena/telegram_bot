@@ -1,5 +1,5 @@
 import telebot #подключение библиотеки для взаимодействия с ботом
-bot = telebot.TeleBot('1870131373:AAH9KpxqpWVCfppdDoLzXkuWiHhowjPnSaQ') #настройка бота
+bot = telebot.TeleBot('1870131373:AAH9KpxqpWVCfppdDoLzXkuWiHhowjPnSaQ') #настройка бота; его id
 list_of_chooses = [] #список, который понадобится нам далее для запис пути
     
 @bot.message_handler(commands=['start']) 
